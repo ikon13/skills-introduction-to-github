@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Анна Пфаф - QA Engineer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Шапка сайта -->
+  <header>
+    <div class="container">
+      <h1>Анна Пфаф</h1>
+      <p>QA Engineer</p>
+      <nav>
+        <ul>
+          <li><a href="#about">Обо мне</a></li>
+          <li><a href="#portfolio">Портфолио</a></li>
+          <li><a href="#services">Услуги</a></li>
+          <li><a href="#blog">Блог</a></li>
+          <li><a href="#contact">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Главная страница -->
+  <section id="home">
+    <div class="container">
+      <h2>Добро пожаловать на мой сайт!</h2>
+      <p>Я — профессиональный тестировщик с опытом в ручном и автоматизированном тестировании. Давайте создавать качественные продукты вместе!</p>
+      <a href="#about" class="btn">Узнать больше</a>
+    </div>
+  </section>
+
+  <!-- Обо мне -->
+  <section id="about">
+    <div class="container">
+      <h2>Обо мне</h2>
+      <img src="anna.jpg" alt="Фото Анны Пфаф" class="profile-img">
+      <p>Привет! Меня зовут Анна Пфаф, и я QA Engineer с опытом работы более 3 лет. Я специализируюсь на:</p>
+      <ul>
+        <li>Функциональном тестировании</li>
+        <li>Автоматизации тестирования (Selenium, Python)</li>
+        <li>Тестировании API (Postman, Swagger)</li>
+        <li>Нагрузочном тестировании (JMeter)</li>
+      </ul>
+      <p>Я всегда стремлюсь к совершенству и люблю находить баги до того, как их найдут пользователи.</p>
+    </div>
+  </section>
+
+  <!-- Портфолио -->
+  <section id="portfolio">
+    <div class="container">
+      <h2>Портфолио</h2>
+      <div class="portfolio-item">
+        <h3>Проект: Тестирование мобильного приложения</h3>
+        <p>Описание: Проведено тестирование мобильного приложения для iOS и Android. Найдено и зафиксировано 50+ багов.</p>
+      </div>
+      <div class="portfolio-item">
+        <h3>Проект: Автоматизация тестирования веб-приложения</h3>
+        <p>Описание: Написаны автотесты на Python с использованием Selenium. Покрытие тестами — 80%.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Услуги -->
+  <section id="services">
+    <div class="container">
+      <h2>Услуги</h2>
+      <ul>
+        <li>Функциональное тестирование</li>
+        <li>Регрессионное тестирование</li>
+        <li>Автоматизация тестирования</li>
+        <li>Тестирование API</li>
+        <li>Нагрузочное тестирование</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Блог -->
+  <section id="blog">
+    <div class="container">
+      <h2>Блог</h2>
+      <div class="blog-post">
+        <h3>Как начать карьеру в QA?</h3>
+        <p>В этой статье я расскажу, с чего начать, если вы хотите стать тестировщиком.</p>
+      </div>
+      <div class="blog-post">
+        <h3>Топ-5 инструментов для автоматизации тестирования</h3>
+        <p>Обзор популярных инструментов для автоматизации тестирования.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Контакты -->
+  <section id="contact">
+    <div class="container">
+      <h2>Контакты</h2>
+      <p>Свяжитесь со мной, чтобы обсудить ваш проект:</p>
+      <form id="contact-form">
+        <label for="name">Имя:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Сообщение:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        
+        <button type="submit" class="btn">Отправить</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Подвал -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Анна Пфаф. Все права защищены.</p>
+      <p>Свяжитесь со мной: <a href="mailto:anna.pfaff@example.com">anna.pfaff@example.com</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
